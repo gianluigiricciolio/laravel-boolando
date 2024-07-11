@@ -1,0 +1,59 @@
+@import "~bootstrap/scss/bootstrap";
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+header,
+footer {
+    height: 100px;
+    color: white;
+}
+
+header {
+    background-color: orange;
+    font-weight: 600;
+}
+
+footer {
+    background-color: black;
+}
+
+.img-container {
+    width: 200px;
+}
+
+header li,
+footer li {
+    display: inline;
+    margin: 0 5px;
+}
+
+main p {
+    margin: 0;
+}
+
+.img-product {
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart-favourite {
+    color: red;
+}
